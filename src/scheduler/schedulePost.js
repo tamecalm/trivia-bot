@@ -2,9 +2,9 @@ const schedule = require('node-schedule');
 const { rwClient } = require('../twitter/twitterClient');
 const { getRandomTrivia } = require('../trivia/triviaFetcher'); // Import trivia fetching logic
 
-// Function to schedule daily trivia post at 9:00 AM
+// Function to schedule trivia post every 30 minutes
 function scheduleDailyTrivia() {
-    schedule.scheduleJob('0 9 * * *', async () => { // Runs daily at 9:00 AM
+    schedule.scheduleJob('*/30 * * * *', async () => { // Runs every 30 minutes
         const trivia = getRandomTrivia();
         const postContent = trivia.question ? trivia.question : trivia.fact;
 
