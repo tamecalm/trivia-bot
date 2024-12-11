@@ -7,7 +7,8 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "twitter-api-v2": "^1.10.0",
-    "node-schedule": "^2.0.0"
+    "dotenv": "^16.4.7",
+    "node-schedule": "^2.1.1",
+    "twitter-api-v2": "^1.18.2"
   }
 }
