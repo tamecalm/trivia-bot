@@ -1,91 +1,402 @@
 [
-    { "fact": "A group of owls is called a parliament." },
-    { "fact": "Some cats are allergic to humans." },
-    { "fact": "The unicorn is the national animal of Scotland." },
-    { "fact": "Sharks can live for 500 years." },
-    { "fact": "An adult human body contains about 100 trillion cells." },
-    { "fact": "The first human-made object to reach space was a dog, Laika, aboard Sputnik 2 in 1957." },
-    { "fact": "A single bolt of lightning contains enough energy to cook 100,000 slices of toast." },
-    { "fact": "A jiffy is an actual unit of time, equivalent to 1/100th of a second." },
-    { "fact": "The heart of a blue whale is as big as a small car." },
-    { "fact": "Butterflies can taste with their feet." },
-    { "fact": "The average person walks the equivalent of five times around the world in a lifetime." },
-    { "fact": "Bananas are naturally radioactive." },
-    { "fact": "The longest-living insect is the termite queen, which can live for over 50 years." },
-    { "fact": "The shortest war in history was between Britain and Zanzibar on August 27, 1896. It lasted 38 minutes." },
-    { "fact": "A group of flamingos is called a 'flamboyance.'" },
-    { "fact": "A group of pugs is called a 'grumble.'" },
-    { "fact": "Polar bears have black skin under their white fur." },
-    { "fact": "The longest word in the English language is pneumonoultramicroscopicsilicovolcanoconiosis." },
-    { "fact": "Wombats have cube-shaped poop to prevent it from rolling away." },
-    { "fact": "There’s a species of jellyfish known as Turritopsis dohrnii that is biologically immortal." },
-    { "fact": "The world's largest snowflake on record was 15 inches wide and 8 inches thick." },
-    { "fact": "It rains diamonds on Jupiter and Saturn." },
-    { "fact": "A day on Venus is longer than a year on Venus." },
-    { "fact": "Honey never spoils. Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old." },
-    { "fact": "Cows have best friends and can become stressed when separated." },
-    { "fact": "A shrimp’s heart is located in its head." },
-    { "fact": "A banana is technically a berry, but a strawberry is not." },
-    { "fact": "A cat’s nose is as unique as a human’s fingerprint." },
-    { "fact": "Polar bear fur is transparent, not white." },
-    { "fact": "A crocodile cannot stick its tongue out." },
-    { "fact": "A newborn kangaroo is the size of a lima bean." },
-    { "fact": "Bamboo can grow up to 35 inches in a single day." },
-    { "fact": "The longest hiccuping spree lasted 68 years." },
-    { "fact": "Sharks are older than trees, having existed for over 400 million years." },
-    { "fact": "The shortest commercial flight in the world lasts only 57 seconds, between two islands in Scotland." },
-    { "fact": "The world’s largest desert is not the Sahara, but Antarctica." },
-    { "fact": "Dolphins have names for each other and can call out to each other using unique whistles." },
-    { "fact": "The first alarm clock could only ring at 4 a.m." },
-    { "fact": "A starfish has no brain, heart, or blood." },
-    { "fact": "Cows can walk upstairs, but they can't walk downstairs." },
-    { "fact": "An octopus has three hearts and blue blood." },
-    { "fact": "The longest hiccuping streak in history lasted for 68 years." },
-    { "fact": "The smallest bone in the human body is in the ear and is called the stapes bone." },
-    { "fact": "Dolphins can sleep with one eye open." },
-    { "fact": "The shortest war in history lasted 38 minutes." },
-    { "fact": "Sloths can hold their breath for up to 40 minutes underwater." },
-    { "fact": "In Japan, the word for ‘crisis’ and ‘opportunity’ is the same." },
-    { "fact": "An elephant’s trunk has more than 40,000 muscles." },
-    { "fact": "An ostrich's eye is bigger than its brain." },
-    { "fact": "Some species of frogs can freeze themselves during winter and thaw out in the spring." },
-    { "fact": "The longest living organism on Earth is a species of fungus in Oregon that is thousands of years old." },
-    { "fact": "A jellyfish’s body is about 95% water." },
-    { "fact": "A baby octopus is the size of a pea when it is born." },
-    { "fact": "A single strand of human hair can support up to 100 grams of weight." },
-    { "fact": "It is possible to turn peanut butter into diamonds by subjecting it to extreme pressure." },
-    { "fact": "Horses can’t vomit." },
-    { "fact": "The only letter that doesn’t appear in any U.S. state name is the letter Q." },
-    { "fact": "The human eye can distinguish approximately 10 million different colors." },
-    { "fact": "A giraffe’s neck contains the same number of vertebrae as a human's neck." },
-    { "fact": "The longest fingernails on one hand ever recorded were 28 feet 4.5 inches long." },
-    { "fact": "A panda’s diet is almost exclusively bamboo." },
-    { "fact": "A full moon is nine times brighter than a half moon." },
-    { "fact": "You can’t hum while holding your nose." },
-    { "fact": "A duck’s quack doesn’t echo." },
-    { "fact": "There are more stars in the universe than grains of sand on all of Earth's beaches." },
-    { "fact": "A cloud can weigh more than a million pounds." },
-    { "fact": "The longest word in the dictionary is the name of a protein called Titin." },
-    { "fact": "The average person has 70,000 thoughts a day." },
-    { "fact": "Sharks have been around for over 400 million years." },
-    { "fact": "A blue whale’s heart weighs as much as a car." },
-    { "fact": "The human body contains enough fat to make seven bars of soap." },
-    { "fact": "The first computer virus was created in 1983." },
-    { "fact": "A starfish can regenerate its limbs if they are lost." },
-    { "fact": "Elephants are the only mammals that can't jump." },
-    { "fact": "The Eiffel Tower can be 15 cm taller during the summer due to the expansion of iron in the heat." },
-    { "fact": "A single teaspoon of honey represents the life work of 12 bees." },
-    { "fact": "The longest hiccuping spree lasted for 68 years." },
-    { "fact": "Rats laugh when they are tickled." },
-    { "fact": "You can’t tickle yourself because your brain knows what to expect." },
-    { "fact": "The human nose can detect over 1 trillion different smells." },
-    { "fact": "Butterflies can taste with their feet." },
-    { "fact": "The Eiffel Tower is 15 cm taller in the summer due to the heat expansion of metal." },
-    { "fact": "A hummingbird’s heart can beat up to 1,200 times per minute." },
-    { "fact": "Some species of jellyfish are immortal." },
-    { "fact": "A giraffe's tongue is about 18-20 inches long." },
-    { "fact": "An octopus has three hearts, two to pump blood to the gills and one to pump blood to the rest of the body." },
-    { "fact": "A cockroach can live for several weeks without its head." },
-    { "fact": "The first alarm clock could only ring at 4 a.m." },
-    { "fact": "A newborn kangaroo is the size of a lima bean." }
+  {
+    "fact": "Bananas are berries, but strawberries are not.",
+    "category": "Science"
+  },
+  {
+    "fact": "The shortest commercial flight in the world lasts just 57 seconds, connecting the islands of Westray and Papa Westray in Scotland.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A day on Venus is longer than a year on Venus due to its slow rotation.",
+    "category": "Science"
+  },
+  {
+    "fact": "Cleopatra lived closer in time to the first Moon landing than to the construction of the Great Pyramid of Giza.",
+    "category": "History"
+  },
+  {
+    "fact": "Wombat poop is cube-shaped, helping it to stay in place and mark territory.",
+    "category": "Animals"
+  },
+  {
+    "fact": "A group of flamingos is called a 'flamboyance'.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The fastest animal on land is the cheetah, capable of running up to 70 mph (113 km/h).",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Eiffel Tower was initially intended to be a temporary exhibit for the 1889 World's Fair.",
+    "category": "History"
+  },
+  {
+    "fact": "The Great Wall of China is not a single continuous wall but a series of walls built by different dynasties over time.",
+    "category": "Geography"
+  },
+  {
+    "fact": "The longest living animal is the quahog clam, which can live for over 500 years.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Sharks have been around longer than trees, dating back over 400 million years.",
+    "category": "Science"
+  },
+  {
+    "fact": "There are more stars in the universe than grains of sand on all of Earth's beaches.",
+    "category": "Science"
+  },
+  {
+    "fact": "The world's largest snowflake on record was 15 inches wide and 8 inches thick, observed in Montana in 1887.",
+    "category": "Science"
+  },
+  {
+    "fact": "One light year is approximately 5.88 trillion miles (9.46 trillion kilometers).",
+    "category": "Science"
+  },
+  {
+    "fact": "The first video game ever created was called 'Tennis for Two' and was made in 1958.",
+    "category": "Technology"
+  },
+  {
+    "fact": "The moon has a distinct smell that astronauts describe as similar to burnt gunpowder.",
+    "category": "Space"
+  },
+  {
+    "fact": "The human nose can detect about 1 trillion different scents.",
+    "category": "Science"
+  },
+  {
+    "fact": "The longest river in the world is the Nile, stretching over 4,135 miles (6,650 kilometers).",
+    "category": "Geography"
+  },
+  {
+    "fact": "The word 'nerd' was first coined by Dr. Seuss in 'If I Ran the Zoo' in 1950.",
+    "category": "Language"
+  },
+  {
+    "fact": "Venus is the hottest planet in our solar system, with temperatures reaching over 900°F (475°C).",
+    "category": "Space"
+  },
+  {
+    "fact": "The first person to be convicted of speeding was going 8 mph (13 km/h).",
+    "category": "History"
+  },
+  {
+    "fact": "The human body contains about 37.2 trillion cells.",
+    "category": "Science"
+  },
+  {
+    "fact": "An octopus can change color instantly to blend in with its surroundings.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The largest volcano in our solar system is Olympus Mons on Mars, standing about 13.6 miles (22 kilometers) high.",
+    "category": "Space"
+  },
+  {
+    "fact": "Honeybees can recognize human faces.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The longest recorded flight of a chicken is 13 seconds.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Jellyfish are 95% water and have no brain, heart, or bones.",
+    "category": "Animals"
+  },
+  {
+    "fact": "A single strand of spider silk is stronger than steel of the same thickness.",
+    "category": "Science"
+  },
+  {
+    "fact": "Mount Everest grows by about 4 millimeters every year due to tectonic activity.",
+    "category": "Geography"
+  },
+  {
+    "fact": "The first successful powered flight was made by the Wright brothers in 1903.",
+    "category": "History"
+  },
+  {
+    "fact": "The tallest mountain on Earth is Mauna Kea in Hawaii, which rises over 33,000 feet (10,000 meters) from the ocean floor.",
+    "category": "Geography"
+  },
+  {
+    "fact": "The term 'computer bug' originated when a moth was found trapped in a computer in 1947.",
+    "category": "Technology"
+  },
+  {
+    "fact": "Your body has about 100,000 miles of blood vessels.",
+    "category": "Science"
+  },
+  {
+    "fact": "The first electric car was built in the 1820s.",
+    "category": "Technology"
+  },
+  {
+    "fact": "The world's largest desert is Antarctica, which is technically a cold desert.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A blue whale's heart weighs about 400 pounds (180 kilograms).",
+    "category": "Animals"
+  },
+  {
+    "fact": "Lightning strikes the Earth about 100 times every second.",
+    "category": "Science"
+  },
+  {
+    "fact": "The Great Barrier Reef is the largest living structure on Earth.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A person's taste buds have a lifespan of about 10 to 14 days.",
+    "category": "Science"
+  },
+  {
+    "fact": "The first person to reach the South Pole was Roald Amundsen in 1911.",
+    "category": "History"
+  },
+  {
+    "fact": "A giraffe's neck is too short to reach the ground, so it has to spread its legs to drink.",
+    "category": "Animals"
+  },
+  {
+    "fact": "There are more possible iterations of a game of chess than there are atoms in the known universe.",
+    "category": "Games"
+  },
+  {
+    "fact": "The largest organ in the human body is the skin.",
+    "category": "Science"
+  },
+  {
+    "fact": "The fastest growing plant is bamboo, which can grow up to 35 inches (90 centimeters) in a single day.",
+    "category": "Nature"
+  },
+  {
+    "fact": "A sneeze can travel at speeds up to 100 miles per hour (160 km/h).",
+    "category": "Science"
+  },
+  {
+    "fact": "A polar bear's skin is black, even though its fur appears white.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The first human to walk in space was Yuri Gagarin from the Soviet Union in 1961.",
+    "category": "Space"
+  },
+  {
+    "fact": "An astronaut’s suit costs about $12 million.",
+    "category": "Space"
+  },
+  {
+    "fact": "Water can boil and freeze at the same time, a phenomenon called the 'triple point.'",
+    "category": "Science"
+  },
+  {
+    "fact": "The shortest war in history lasted only 38 minutes, between Britain and Zanzibar in 1896.",
+    "category": "History"
+  },
+  {
+    "fact": "The largest recorded snowflake was 15 inches wide and 8 inches thick.",
+    "category": "Science"
+  },
+  {
+    "fact": "The longest living organism on Earth is a colony of Aspen trees in Utah that spans over 80 acres.",
+    "category": "Nature"
+  },
+  {
+    "fact": "The moon is slowly moving away from Earth, about 1.5 inches (3.8 cm) per year.",
+    "category": "Space"
+  },
+  {
+    "fact": "The word 'computer' originally referred to a person who performed calculations, not a machine.",
+    "category": "Technology"
+  },
+  {
+    "fact": "A group of crows is called a 'murder'.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The first mobile phone call was made by Martin Cooper in 1973.",
+    "category": "Technology"
+  },
+  {
+    "fact": "Sharks can go without eating for weeks due to their slow metabolism.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The longest time someone has survived without water is 18 days.",
+    "category": "Science"
+  },
+  {
+    "fact": "The Amazon rainforest produces 20% of the world's oxygen supply.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A cat’s nose is as unique as a human’s fingerprint.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Great Wall of China is not visible from space with the naked eye, despite the myth.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Koalas sleep up to 22 hours a day.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Rats can swim for up to half a mile (800 meters) in open water.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Eiffel Tower was originally intended to be a temporary structure for the 1889 World’s Fair.",
+    "category": "History"
+  },
+  {
+    "fact": "The longest wedding veil was longer than 63 football fields.",
+    "category": "History"
+  },
+  {
+    "fact": "A single elephant tooth can weigh up to 6 pounds (2.7 kg).",
+    "category": "Animals"
+  },
+  {
+    "fact": "Venus is the hottest planet in our solar system, even though Mercury is closer to the Sun.",
+    "category": "Space"
+  },
+  {
+    "fact": "A day on Mercury lasts 59 Earth days.",
+    "category": "Space"
+  },
+  {
+    "fact": "The first ever photograph taken in space was of the Earth from a V-2 rocket in 1946.",
+    "category": "Space"
+  },
+  {
+    "fact": "The world's largest snowman was built in Maine in 2008 and stood over 122 feet tall.",
+    "category": "Geography"
+  },
+  {
+    "fact": "The longest hiccuping spree lasted 68 years.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "The heart of a blue whale is about the size of a small car.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The word 'robot' comes from the Czech word 'robota', meaning forced labor.",
+    "category": "Language"
+  },
+  {
+    "fact": "The first recorded use of the word 'science' was in the 14th century.",
+    "category": "History"
+  },
+  {
+    "fact": "Cows have best friends and can become stressed when separated from them.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The only letter that doesn't appear in any U.S. state name is Q.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A 'jiffy' is an actual unit of time, meaning 1/100th of a second.",
+    "category": "Science"
+  },
+  {
+    "fact": "The human brain contains about 86 billion neurons.",
+    "category": "Science"
+  },
+  {
+    "fact": "You can’t hum while holding your nose.",
+    "category": "Science"
+  },
+  {
+    "fact": "The strongest muscle in the human body relative to its size is the masseter, the jaw muscle.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "Elephants are the only mammals that can’t jump.",
+    "category": "Animals"
+  },
+  {
+    "fact": "An octopus has three hearts and blue blood.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The longest recorded time for a person to hold their breath is 24 minutes and 3 seconds.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "The oldest known living organism is a colony of quaking aspens in Utah, estimated to be over 80,000 years old.",
+    "category": "Nature"
+  },
+  {
+    "fact": "The first successful powered airplane flight was 12 seconds long and traveled 120 feet.",
+    "category": "History"
+  },
+  {
+    "fact": "The Eiffel Tower grows in height by about 6 inches in the summer due to thermal expansion.",
+    "category": "Science"
+  },
+  {
+    "fact": "The moon has a distinct smell that astronauts describe as gunpowder-like.",
+    "category": "Space"
+  },
+  {
+    "fact": "There are more bacteria in your body than there are human cells.",
+    "category": "Science"
+  },
+  {
+    "fact": "A giraffe’s tongue can be up to 18 inches long.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The first video game character was a dot, created in the game 'Pong' in 1972.",
+    "category": "Technology"
+  },
+  {
+    "fact": "Water makes up about 60% of the human body.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "Polar bears have black skin under their white fur.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The longest recorded flight of a chicken lasted 13 seconds.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The first use of the word 'selfie' was in 2002 on an Australian internet forum.",
+    "category": "Language"
+  },
+  {
+    "fact": "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs.",
+    "category": "History"
+  },
+  {
+    "fact": "The Great Wall of China is over 13,000 miles (21,000 km) long.",
+    "category": "Geography"
+  },
+  {
+    "fact": "The human nose can detect over 1 trillion different scents.",
+    "category": "Science"
+  },
+  {
+    "fact": "A sloth can hold its breath for up to 40 minutes underwater.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The first man-made object to reach the Moon was the Soviet Union’s Luna 2 in 1959.",
+    "category": "Space"
+  },
+  {
+    "fact": "The average person will spend about 6 months of their life waiting for red lights to turn green.",
+    "category": "Human Body"
+  }
 ]
