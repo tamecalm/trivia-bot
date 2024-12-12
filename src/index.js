@@ -1,24 +1,22 @@
-const { scheduleDailyTrivia } = require('./scheduler/schedulePost'); // Adjust path if needed
-const { rwClient } = require('./twitter/twitterClient'); // Twitter client for posting
-const { getRandomTrivia } = require('./trivia/triviaFetcher'); // Function to get a random trivia
+const { scheduleDailyTrivia } = require('./scheduler/schedulePost');
+const { rwClient } = require('./twitter/twitterClient');
+const { getRandomTrivia } = require('./trivia/triviaFetcher');
 const http = require('http');
 
-// Function to post a test trivia immediately
 async function postTestTrivia() {
-    const trivia = getRandomTrivia(); // Get random trivia (question or fact)
-    const postContent = trivia.question ? trivia.question : trivia.fact;
+    const trivia = getRandomTrivia();
+    const postContent = trivia.question || trivia.fact || 'Here’s a test trivia!';
 
     try {
-        await rwClient.v2.tweet(postContent); // Post the trivia to Twitter
+        await rwClient.v2.tweet(postContent);
         console.log('Test trivia posted:', postContent);
     } catch (error) {
         console.error('Error posting test trivia:', error);
     }
 }
 
-// Function to handle HTTP requests (for rendering purposes)
 function startHttpServer() {
-    const PORT = process.env.PORT || 3000; // Default to 3000 if Render doesn't provide a PORT
+    const PORT = process.env.PORT || 3000;
     http.createServer((req, res) => {
         res.writeHead(200, { 'Content-Type': 'text/plain' });
         res.end('Trivia bot is running!');
@@ -29,14 +27,8 @@ function startHttpServer() {
 
 function startBot() {
     console.log('Starting Trivia Bot...');
-    
-    // Post a test trivia immediately when the bot starts
     postTestTrivia();
-
-    // Schedule daily trivia posts
     scheduleDailyTrivia();
-
-    // Start HTTP server to bind to the port for Render
     startHttpServer();
 }
 

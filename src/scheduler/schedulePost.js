@@ -1,38 +1,43 @@
 const schedule = require('node-schedule');
 const { rwClient } = require('../twitter/twitterClient');
-const { getRandomTrivia } = require('../trivia/triviaFetcher'); // Import trivia fetching logic
+const { getRandomTrivia } = require('../trivia/triviaFetcher');
 
-// In-memory store to track previously posted trivia
 const postedTrivia = new Set();
 
-// Function to schedule trivia post every 30 minutes
 function scheduleDailyTrivia() {
-    schedule.scheduleJob('*/30 * * * *', async () => { // Runs every 30 minutes
-        let trivia = getRandomTrivia(); // Get a random trivia question or fact
+    schedule.scheduleJob('*/30 * * * *', async () => {
+        let trivia = getRandomTrivia();
+
+        let retryCount = 0;
+        const maxRetries = 5;
 
         // Ensure trivia is unique and hasn't been posted recently
-        while (postedTrivia.has(trivia.question) || postedTrivia.has(trivia.fact)) {
-            console.log("Duplicate trivia detected, fetching new trivia...");
-            trivia = getRandomTrivia(); // Fetch new trivia if it's a duplicate
-        }
-
-        // Select the trivia content to post
-        const postContent = trivia.question ? trivia.question : trivia.fact;
-
-        try {
-            // Post trivia to Twitter
-            await rwClient.v2.tweet(postContent); 
-            console.log('Trivia posted:', postContent);
-            
-            // Add the posted trivia to the set to avoid re-posting
-            if (trivia.question) {
-                postedTrivia.add(trivia.question);
-            } else if (trivia.fact) {
-                postedTrivia.add(trivia.fact);
+        while ((trivia.question && postedTrivia.has(trivia.question)) ||
+               (trivia.fact && postedTrivia.has(trivia.fact))) {
+            if (retryCount >= maxRetries) {
+                console.error('Max retries reached. Skipping posting.');
+                return;
             }
 
-            // Optional: Log the current state of posted trivia for debugging
-            console.log('Current posted trivia:', Array.from(postedTrivia));
+            console.log('Duplicate trivia detected, fetching new trivia...');
+            trivia = getRandomTrivia();
+            retryCount++;
+        }
+
+        const postContent = trivia.question || trivia.fact || 'Here’s some trivia for you!';
+
+        try {
+            await rwClient.v2.tweet(postContent);
+            console.log('Trivia posted:', postContent);
+
+            if (trivia.question) postedTrivia.add(trivia.question);
+            if (trivia.fact) postedTrivia.add(trivia.fact);
+
+            // Keep the set size manageable
+            if (postedTrivia.size > 100) {
+                const [firstEntry] = postedTrivia;
+                postedTrivia.delete(firstEntry);
+            }
         } catch (error) {
             console.error('Error posting trivia:', error);
         }
