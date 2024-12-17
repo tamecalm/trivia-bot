@@ -894,5 +894,773 @@
   {
     "fact": "Choosing to leave toxic environments is not weakness. It’s strength and self-preservation.",
     "category": "Life"
+  },
+  {
+    "fact": "A teaspoon of honey represents the life work of 12 bees.",
+    "category": "Science"
+  },
+  {
+    "fact": "Sound travels four times faster in water than in air.",
+    "category": "Science"
+  },
+  {
+    "fact": "Hot water freezes faster than cold water in certain conditions, known as the Mpemba effect.",
+    "category": "Science"
+  },
+  {
+    "fact": "If you stretched out your DNA, it would be about twice the diameter of the Solar System.",
+    "category": "Science"
+  },
+  {
+    "fact": "The human body glows in the dark, but it’s invisible to the naked eye.",
+    "category": "Science"
+  },
+  {
+    "fact": "A mantis shrimp can punch with the speed of a bullet.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The sun is 400 times larger than the moon but 400 times farther away, making them appear the same size.",
+    "category": "Space"
+  },
+  {
+    "fact": "Glass is actually a very slow-moving liquid.",
+    "category": "Science"
+  },
+  {
+    "fact": "Neutron stars are so dense that a sugar-cube-sized amount of material weighs as much as a mountain.",
+    "category": "Space"
+  },
+  {
+    "fact": "The Earth's core is as hot as the surface of the sun.",
+    "category": "Science"
+  },
+  {
+    "fact": "A day on Mars is 24 hours, 39 minutes, and 35 seconds long.",
+    "category": "Space"
+  },
+  {
+    "fact": "The Milky Way galaxy is on a collision course with the Andromeda galaxy, set to merge in 4.5 billion years.",
+    "category": "Space"
+  },
+  {
+    "fact": "Jupiter has the largest ocean in the Solar System, made of liquid hydrogen.",
+    "category": "Space"
+  },
+  {
+    "fact": "Venus rotates so slowly that a day on Venus is longer than a year.",
+    "category": "Space"
+  },
+  {
+    "fact": "Saturn’s moon Titan has lakes of liquid methane.",
+    "category": "Space"
+  },
+  {
+    "fact": "There are more stars in the universe than grains of sand on Earth.",
+    "category": "Space"
+  },
+  {
+    "fact": "The Great Wall of China is not visible from space with the naked eye.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Lightning can be hotter than the surface of the sun.",
+    "category": "Science"
+  },
+  {
+    "fact": "Octopuses have three hearts and blue blood.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Bananas are berries, but strawberries are not.",
+    "category": "Science"
+  },
+  {
+    "fact": "The Eiffel Tower can grow taller in the summer due to thermal expansion.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Wombat poop is cube-shaped.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The shortest war in history lasted 38 minutes (Anglo-Zanzibar War).",
+    "category": "History"
+  },
+  {
+    "fact": "Your body has more bacterial cells than human cells.",
+    "category": "Science"
+  },
+  {
+    "fact": "Sharks existed before trees.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Cleopatra lived closer in time to the first Moon landing than to the construction of the Great Pyramid of Giza.",
+    "category": "History"
+  },
+  {
+    "fact": "A group of flamingos is called a 'flamboyance'.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Cows have best friends and get stressed when separated.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The shortest commercial flight in the world lasts just 57 seconds, connecting Westray and Papa Westray in Scotland.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A snail can sleep for up to three years.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Penguins propose to their mates with pebbles.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The speed of light is about 299,792 kilometers per second.",
+    "category": "Science"
+  },
+  {
+    "fact": "Humans share about 60% of their DNA with bananas.",
+    "category": "Science"
+  },
+  {
+    "fact": "Mount Everest grows about 4 millimeters taller every year.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Cats can make over 100 different vocal sounds, while dogs can only make about 10.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Some turtles can breathe through their butts.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The heart of a blue whale is as large as a small car.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Amazon Rainforest produces 20% of the world's oxygen.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A day on Pluto lasts about 153 hours.",
+    "category": "Space"
+  },
+  {
+    "fact": "There is a planet made of diamonds called 55 Cancri e.",
+    "category": "Space"
+  },
+  {
+    "fact": "Sloths can hold their breath longer than dolphins, up to 40 minutes.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The largest desert in the world is Antarctica, not the Sahara.",
+    "category": "Geography"
+  },
+  {
+    "fact": "An adult human is made up of approximately 7,000,000,000,000,000,000,000,000,000 atoms.",
+    "category": "Science"
+  },
+  {
+    "fact": "Honey never spoils and has been found in edible condition in ancient Egyptian tombs.",
+    "category": "Science"
+  },
+  {
+    "fact": "Polar bear fur is not white; it is transparent and reflects light.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Statue of Liberty’s fingernail is about 13 inches long.",
+    "category": "History"
+  },
+  {
+    "fact": "Kangaroos cannot walk backward.",
+    "category": "Animals"
+  },
+  {
+    "fact": "It rains diamonds on Jupiter and Saturn.",
+    "category": "Space"
+  },
+  {
+    "fact": "There are more fake flamingos in the world than real ones.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Sharks do not have bones; their skeletons are made of cartilage.",
+    "category": "Animals"
+  },
+  {
+    "fact": "There are more than 200 volcanoes on Venus.",
+    "category": "Space"
+  },
+  {
+    "fact": "The shortest sentence in English is 'I am.'",
+    "category": "Language"
+  },
+  {
+    "fact": "Sea otters hold hands when they sleep to keep from drifting apart.",
+    "category": "Animals"
+  },
+  {
+    "fact": "A bolt of lightning contains enough energy to toast 100,000 slices of bread.",
+    "category": "Science"
+  },
+  {
+    "fact": "Owls cannot move their eyes; they rotate their heads to see.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Astronauts’ height increases in space due to the lack of gravity compressing their spines.",
+    "category": "Space"
+  },
+  {
+    "fact": "Butterflies can taste with their feet.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Eiffel Tower sways up to 15 centimeters in strong winds.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Koalas have fingerprints that are almost indistinguishable from humans'.",
+    "category": "Animals"
+  },
+  {
+    "fact": "A single cloud can weigh more than 1 million pounds.",
+    "category": "Science"
+  },
+  {
+    "fact": "The longest hiccuping spree lasted 68 years.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "An octopus has nine brains: one central brain and a mini brain in each arm.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The moon is slowly moving away from Earth at a rate of 3.8 cm per year.",
+    "category": "Space"
+  },
+  {
+    "fact": "Jellyfish are 95% water.",
+    "category": "Animals"
+  },
+  {
+    "fact": "A day on Mercury lasts about 59 Earth days.",
+    "category": "Space"
+  },
+  {
+    "fact": "Some species of fish can recognize themselves in a mirror.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Sahara Desert was once a lush green landscape.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A shrimp's heart is located in its head.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Humans shed about 600,000 skin particles every hour.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "The fingerprints of a koala are so similar to humans that they could taint crime scenes.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Spiders can’t chew; they inject digestive fluids into their prey and drink the liquefied insides.",
+    "category": "Animals"
+  },
+  {
+    "fact": "There are more bacteria in your mouth than people on Earth.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "Goldfish have a memory span of several months, not a few seconds as widely believed.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Blue whales are the loudest animals on Earth, reaching up to 188 decibels.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Rainbows can appear at night and are called 'moonbows.'",
+    "category": "Science"
+  },
+  {
+    "fact": "The Great Barrier Reef is the largest living structure on Earth.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A group of crows is called a 'murder.'",
+    "category": "Animals"
+  },
+  {
+    "fact": "A flea can jump 350 times its body length.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Humans are the only animals that blush.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "Whales can hold their breath for over an hour.",
+    "category": "Animals"
+  },
+  {
+    "fact": "A newborn kangaroo is about the size of a jellybean.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Venus has more volcanoes than any other planet in the Solar System.",
+    "category": "Space"
+  },
+  {
+    "fact": "Birds are the closest living relatives to dinosaurs.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The dot over the lowercase letter 'i' is called a tittle.",
+    "category": "Language"
+  },
+  {
+    "fact": "Humans share about 98% of their DNA with chimpanzees.",
+    "category": "Science"
+  },
+  {
+    "fact": "The water in Lake Superior is enough to cover all of North and South America in one foot of water.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Some frogs can freeze solid and survive.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Venus spins in the opposite direction to most planets.",
+    "category": "Space"
+  },
+  {
+    "fact": "A tiger’s skin is striped, just like its fur.",
+    "category": "Animals"
+  },
+  {
+    "fact": "More than 80% of the ocean remains unexplored.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Elephants are the only animals that cannot jump.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The world's smallest reptile was discovered in 2021 and measures just 13.5 millimeters.",
+    "category": "Animals"
+  },
+  {
+    "fact": "A bolt of lightning can reach temperatures hotter than the sun’s surface.",
+    "category": "Science"
+  },
+  {
+    "fact": "Bees can recognize human faces.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Rats laugh when tickled.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The largest snowflake ever recorded was 15 inches wide.",
+    "category": "Science"
+  },
+  {
+    "fact": "Cows have best friends and can become stressed when separated from them.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Shakespeare invented over 1,700 words in the English language, including 'bedroom' and 'lonely.'",
+    "category": "History"
+  },
+  {
+    "fact": "The longest recorded flight of a chicken is 13 seconds.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The world's oldest hotel, Nishiyama Onsen Keiunkan in Japan, has been running since 705 AD.",
+    "category": "History"
+  },
+  {
+    "fact": "The human brain generates enough electricity to power a light bulb.",
+    "category": "Human Body"
+  },
+  {
+    "note": "Earth's deepest point, the Mariana Trench, is about 36,000 feet deep—deeper than Mount Everest is tall.",
+    "category": "Geography"
+  },
+  {
+    "fact": "Apples float in water because they are 25% air.",
+    "category": "Science"
+  },
+  {
+    "fact": "Octopuses have three hearts, and two of them stop beating when they swim.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The inventor of the frisbee was turned into a frisbee after he died.",
+    "category": "History"
+  },
+  {
+    "fact": "There is a species of jellyfish, called Turritopsis dohrnii, that is biologically immortal.",
+    "category": "Animals"
+  },
+  {
+    "note": "Rainforests produce about 20% of Earth's oxygen.",
+    "category": "Environment"
+  },
+  {
+    "fact": "The hashtag symbol (#) is called an 'octothorpe.'",
+    "category": "Language"
+  },
+  {
+    "fact": "Pineapple takes about two years to grow and mature.",
+    "category": "Science"
+  },
+  {
+    "statement": "The Great Wall of China is not visible from space with the naked eye.",
+    "category": "Geography"
+  },
+  {
+    "note": "The heart of a blue whale is so large, a human could swim through its arteries.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The shortest war in history lasted 38 minutes between Britain and Zanzibar in 1896.",
+    "category": "History"
+  },
+  {
+    "statement": "Venus is the hottest planet in our solar system, even though Mercury is closer to the Sun.",
+    "category": "Space"
+  },
+  {
+    "note": "The scent of fresh-cut grass is actually a plant distress signal.",
+    "category": "Science"
+  },
+  {
+    "fact": "Penguins propose to their mates using pebbles.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The first oranges weren’t orange; they were green.",
+    "category": "Science"
+  },
+  {
+    "fact": "Bananas are naturally radioactive due to their potassium content.",
+    "category": "Science"
+  },
+  {
+    "note": "The first person to be issued a speeding ticket was driving at 8 mph.",
+    "category": "History"
+  },
+  {
+    "statement": "Giraffes have the same number of neck vertebrae as humans—seven.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Antarctica is the only continent without native species of ants.",
+    "category": "Geography"
+  },
+  {
+    "note": "The longest-living mammal is the bowhead whale, which can live for over 200 years.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Humans have more bacterial cells in their bodies than human cells.",
+    "category": "Human Body"
+  },
+  {
+    "statement": "A snail can sleep for three years at a time.",
+    "category": "Animals"
+  },
+  {
+    "note": "The speed of a sneeze can exceed 100 miles per hour.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "The first email ever sent was by Ray Tomlinson to himself in 1971.",
+    "category": "Technology"
+  },
+  {
+    "statement": "A bolt of lightning strikes Earth about 8 million times per day.",
+    "category": "Science"
+  },
+  {
+    "fact": "The Eiffel Tower can grow taller by up to 6 inches during hot days.",
+    "category": "Geography"
+  },
+  {
+    "note": "Wolves and ravens often cooperate in the wild, sharing food and alerting each other to danger.",
+    "category": "Animals"
+  },
+  {
+    "statement": "Mount Everest grows about 4 millimeters taller every year.",
+    "category": "Geography"
+  },
+  {
+    "fact": "The human eye can distinguish about 10 million different colors.",
+    "category": "Human Body"
+  },
+  {
+    "statement": "A single strand of spaghetti is called a 'spaghetto.'",
+    "category": "Language"
+  },
+  {
+    "note": "Some species of bamboo can grow up to 35 inches in a single day.",
+    "category": "Science"
+  },
+  {
+    "fact": "Beethoven never knew how to multiply or divide numbers.",
+    "category": "History"
+  },
+  {
+    "statement": "Reindeers' eyes change color with the seasons to adapt to light levels.",
+    "category": "Animals"
+  },
+  {
+    "fact": "Sharks existed before trees, over 400 million years ago.",
+    "category": "History"
+  },
+  {
+    "note": "One teaspoon of honey represents the lifetime work of 12 bees.",
+    "category": "Science"
+  },
+  {
+    "fact": "Humans share about 60% of their DNA with bananas.",
+    "category": "Science"
+  },
+  {
+    "statement": "A newborn blue whale gains about 200 pounds every day during its first year.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The name for the fear of long words is 'hippopotomonstrosesquipedaliophobia.'",
+    "category": "Language"
+  },
+  {
+    "note": "The Guinness World Record for the longest hiccuping spree lasted 68 years.",
+    "category": "Human Body"
+  },
+  {
+    "statement": "An adult human body has 206 bones, but babies are born with around 300 bones.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "The world's first website is still online at CERN, created in 1991.",
+    "category": "Technology"
+  },
+  {
+    "note": "The fastest land animal is not a cheetah but a mite species called Paratarsotomus macropalpis, which runs 322 body lengths per second.",
+    "category": "Animals"
+  },
+  {
+    "fact": "There are more trees on Earth than stars in the Milky Way galaxy.",
+    "category": "Environment"
+  },
+  {
+    "note": "Sloths can hold their breath longer than dolphins—up to 40 minutes.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The inventor of the Rubik's Cube took a month to solve his own puzzle.",
+    "category": "History"
+  },
+  {
+    "fact": "Astronauts' height increases by about 2 inches while in space due to spinal expansion.",
+    "category": "Space"
+  },
+  {
+    "note": "The smell after rain is called 'petrichor.'",
+    "category": "Science"
+  },
+  {
+    "statement": "Honey never spoils. Archaeologists found pots of honey in ancient Egyptian tombs still edible.",
+    "category": "History"
+  },
+  {
+    "fact": "The fingerprints of koalas are so similar to humans' that they can confuse crime scene investigators.",
+    "category": "Animals"
+  },
+  {
+    "note": "The unicorn is Scotland's national animal.",
+    "category": "Culture"
+  },
+  {
+    "statement": "Humans and giraffes have the same number of teeth—32.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "A day on Saturn lasts about 10.7 hours, making it one of the fastest-spinning planets.",
+    "category": "Space"
+  },
+  {
+    "note": "A shrimp's heart is located in its head.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The dot over the letters 'i' and 'j' is called a 'tittle.'",
+    "category": "Language"
+  },
+  {
+    "fact": "There are more living organisms in a single teaspoon of soil than people on Earth.",
+    "category": "Science"
+  },
+  {
+    "note": "Octopuses can taste with their arms, as they contain sensory receptors.",
+    "category": "Animals"
+  },
+  {
+    "statement": "Bees can recognize human faces.",
+    "category": "Animals"
+  },
+  {
+    "fact": "The Eiffel Tower leans slightly away from the sun during hot days because of metal expansion.",
+    "category": "Science"
+  },
+  {
+    "note": "Tigers have striped skin, not just striped fur.",
+    "category": "Animals"
+  },
+  {
+    "statement": "Venus rotates clockwise, making it the only planet in our solar system to do so.",
+    "category": "Space"
+  },
+  {
+    "fact": "Water can boil and freeze at the same time under specific conditions, known as the 'triple point.'",
+    "category": "Science"
+  },
+  {
+    "note": "Elephants are the only animals that cannot jump.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The average cloud weighs over 1 million pounds.",
+    "category": "Science"
+  },
+  {
+    "fact": "Peanuts are not nuts; they are legumes.",
+    "category": "Food"
+  },
+  {
+    "note": "A crocodile cannot stick its tongue out.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The phrase 'break a leg' in theater is said to wish performers luck by encouraging them to 'take a bow.'",
+    "category": "Culture"
+  },
+  {
+    "fact": "Bats are the only mammals capable of sustained flight.",
+    "category": "Animals"
+  },
+  {
+    "note": "The inventor of the Pringles can is buried in one.",
+    "category": "History"
+  },
+  {
+    "statement": "The Sahara Desert was once a lush, green region about 6,000 years ago.",
+    "category": "Geography"
+  },
+  {
+    "fact": "A single teaspoon of water contains about 8 sextillion water molecules.",
+    "category": "Science"
+  },
+  {
+    "note": "Cats can't taste sweetness due to a genetic mutation.",
+    "category": "Animals"
+  },
+  {
+    "statement": "Bubble wrap was originally intended to be used as wallpaper.",
+    "category": "Inventions"
+  },
+  {
+    "fact": "Polar bears' fur is not white; it's transparent, and their skin underneath is black.",
+    "category": "Animals"
+  },
+  {
+    "note": "Humans share about 98% of their DNA with chimpanzees.",
+    "category": "Science"
+  },
+  {
+    "statement": "The shortest sentence in English is 'I am.'",
+    "category": "Language"
+  },
+  {
+    "fact": "Mosquitoes are attracted to the color blue twice as much as any other color.",
+    "category": "Science"
+  },
+  {
+    "note": "Rats laugh when tickled, but their giggles are too high-pitched for humans to hear.",
+    "category": "Animals"
+  },
+  {
+    "statement": "The strongest muscle in the human body, relative to its size, is the tongue.",
+    "category": "Human Body"
+  },
+  {
+    "fact": "Orcas, also known as killer whales, are not whales; they are the largest members of the dolphin family.",
+    "category": "Animals"
+  },
+  {
+    "note": "Sea otters hold hands when they sleep to keep from drifting apart.",
+    "category": "Animals"
+  },
+  {
+    "statement": "A bolt of lightning is five times hotter than the surface of the sun.",
+    "category": "Science"
+  },
+  {
+    "fact": "A group of crows is called a 'murder.'",
+    "category": "Animals"
+  },
+  {
+    "note": "Onions were once used as currency in ancient Egypt.",
+    "category": "History"
+  },
+  {
+    "statement": "A kangaroo cannot walk backwards due to its muscular tail.",
+    "category": "Animals"
+  },
+  {
+    "fact": "There are more languages spoken in Papua New Guinea than in any other country—over 800.",
+    "category": "Language"
+  },
+  {
+    "note": "The world's quietest room, located in Minnesota, is so silent you can hear your own blood flowing.",
+    "category": "Science"
+  },
+  {
+    "statement": "If you could fold a piece of paper 42 times, it would reach the Moon.",
+    "category": "Math"
+  },
+  {
+    "fact": "Dolphins give each other names by developing specific whistles.",
+    "category": "Animals"
+  },
+  {
+    "note": "Snakes can sense heat through special pits in their faces, helping them locate warm-blooded prey.",
+    "category": "Animals"
+  },
+  {
+    "statement": "A group of jellyfish is called a 'smack.'",
+    "category": "Animals"
+  },
+  {
+    "fact": "The tongue print is as unique as a fingerprint.",
+    "category": "Human Body"
   }
 ]

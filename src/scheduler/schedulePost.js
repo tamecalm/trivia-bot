@@ -1,8 +1,8 @@
 // ==========================================================================
-// Dice Game Bot Project - Script Header
+// Trivia (X) Bot - Script Header
 // ==========================================================================
 //
-// Project: Dice Game Bot
+// Project: Trivia (X) Bot
 // Repository: https://github.com/tamecalm/trivia-bot
 // 
 // Description: 
