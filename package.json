@@ -1,8 +1,8 @@
 {
   "name": "trivia-bot",
   "version": "1.0.0",
-  "description": "Trivia bot",
-  "main": "index.js",
+  "description": "A bot designed to schedule and manage trivia quizzes.",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
@@ -10,5 +10,15 @@
     "dotenv": "^16.4.7",
     "node-schedule": "^2.1.1",
     "twitter-api-v2": "^1.18.2"
+  },
+  "keywords": ["trivia", "bot", "scheduler", "quiz"],
+  "author": "Ilesanmi Kehinde",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/trivia-bot.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

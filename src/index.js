@@ -6,7 +6,7 @@
 // Repository: https://github.com/tamecalm/trivia-bot
 // 
 // Description: 
-// A robust and extensible module designed for a multiplayer dice game bot. 
+// A robust and extensible module designed for scheduling and managing trivia quizzes. 
 // Feel free to use, modify, or contribute to the project under the terms of the repository's license.
 //
 // Author: Engr John! 🧑‍💻
@@ -17,21 +17,7 @@
 // ==========================================================================
 
 const { scheduleDailyTrivia } = require('./scheduler/schedulePost');
-const { rwClient } = require('./twitter/twitterClient');
-const { getRandomTrivia } = require('./trivia/triviaFetcher');
 const http = require('http');
-
-async function postTestTrivia() {
-    const trivia = getRandomTrivia();
-    const postContent = trivia.question || trivia.fact || 'Here’s a test trivia!';
-
-    try {
-        await rwClient.v2.tweet(postContent);
-        console.log('Test trivia posted:', postContent);
-    } catch (error) {
-        console.error('Error posting test trivia:', error);
-    }
-}
 
 function startHttpServer() {
     const PORT = process.env.PORT || 3000;
@@ -45,13 +31,11 @@ function startHttpServer() {
 
 function startBot() {
     console.log('Starting Trivia Bot...');
-    postTestTrivia();
     scheduleDailyTrivia();
     startHttpServer();
 }
 
 startBot();
-
 
 // ==========================================================================
 // Contact: 

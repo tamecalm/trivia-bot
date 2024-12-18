@@ -6,7 +6,7 @@
 // Repository: https://github.com/tamecalm/trivia-bot
 // 
 // Description: 
-// A robust and extensible module designed for a multiplayer dice game bot. 
+// A robust and extensible module designed for scheduling and managing trivia quizzes. 
 // Feel free to use, modify, or contribute to the project under the terms of the repository's license.
 //
 // Author: Engr John! 🧑‍💻
