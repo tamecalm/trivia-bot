@@ -11,8 +11,8 @@
 // Modification, or distribution of this script outside the license terms is prohibited.
 // ==========================================================================
 
-const { scheduleDailyTrivia } = require('./scheduler/schedulePost');
-const http = require('http');
+import { scheduleDailyTrivia } from './scheduler/schedulePost';
+import http from 'http';
 
 // Health check endpoint
 function startHealthCheckServer() {

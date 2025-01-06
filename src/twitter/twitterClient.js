@@ -16,7 +16,7 @@
 // Modification, or distribution of this script outside the license terms is prohibited.
 // ==========================================================================
 
-const { TwitterApi } = require('twitter-api-v2');
+import { TwitterApi } from 'twitter-api-v2';
 require('dotenv').config();
 
 const client = new TwitterApi({
@@ -28,7 +28,7 @@ const client = new TwitterApi({
 
 const rwClient = client.readWrite;
 
-module.exports = { rwClient };
+exports = { rwClient };
 
 
 // ==========================================================================

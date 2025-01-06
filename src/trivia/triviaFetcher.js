@@ -16,8 +16,8 @@
 // Modification, or distribution of this script outside the license terms is prohibited.
 // ==========================================================================
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 function getRandomTrivia() {
     const questionsFilePath = path.join(__dirname, 'questions.json');
@@ -38,7 +38,7 @@ function getRandomTrivia() {
     return triviaData[randomIndex];
 }
 
-module.exports = { getRandomTrivia };
+exports = { getRandomTrivia };
 
 
 // ==========================================================================

@@ -16,8 +16,8 @@
 // Modification, or distribution of this script outside the license terms is prohibited.
 // ==========================================================================
 
-const { rwClient } = require('../twitter/twitterClient');
-const { getRandomTrivia } = require('../trivia/triviaFetcher');
+import { rwClient } from '../twitter/twitterClient';
+import { getRandomTrivia } from '../trivia/triviaFetcher';
 
 const postedTrivia = new Set();
 const interval = 1.5 * 60 * 60 * 1000; // 1.5 hours in milliseconds
@@ -78,7 +78,7 @@ function scheduleDailyTrivia() {
     setInterval(postTrivia, interval);
 }
 
-module.exports = { scheduleDailyTrivia };
+exports = { scheduleDailyTrivia };
 
 // ==========================================================================
 // Contact: 
